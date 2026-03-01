@@ -11,7 +11,7 @@ def run_budget_calculator():
 
     # Convert costs to a dictionary for easy lookup
     # creating a mapping for efficiency
-    cost_map = dict(zip(costs["improvement"], costs["unit_cost_USD"]))
+    cost_map = dict(zip(costs["improvement"], costs["unit_cost_KSH"]))
 
     # 2. Logic: Assign Costs based on Source Type and Quality
     # join sources with pollution to identify specific well needs
@@ -43,11 +43,11 @@ def run_budget_calculator():
     # 3. Final Summary
     total_budget = well_cost + river_cost + tap_cost
 
-    print(f"WELL RESTORATION: ${well_cost:,}")
-    print(f"RIVER CONVERSION (DROUGHT RELIEF): ${river_cost:,}")
-    print(f"TAP REPAIRS: ${tap_cost:,}")
+    print(f"WELL RESTORATION: Ksh {well_cost:,}")
+    print(f"RIVER CONVERSION (DROUGHT RELIEF): Ksh {river_cost:,}")
+    print(f"TAP REPAIRS: Ksh {tap_cost:,}")
     print("-" * 40)
-    print(f"TOTAL INVESTMENT REQUIRED: ${total_budget:,}")
+    print(f"TOTAL INVESTMENT REQUIRED: Ksh {total_budget:,}")
 
 
 if __name__ == "__main__":
