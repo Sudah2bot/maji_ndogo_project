@@ -13,7 +13,12 @@ Based on my multi-table analysis of 60,000+ records, these are the prioritized a
 | **Infrastructure** | River Users (Drought Risk) | 2,362,544 | 🟡 High |
 | **Optimization** | Overcrowded Shared Taps | 11,945,272 | 🟢 Medium |
 
+## Financial Roadmap
+The total budget required to end the Maji Ndogo water crisis is **$77,758,500**.
 
+- **$46,987,400** for Drilling Wells (Drought Mitigation for River users).
+- **$28,721,500** for advanced filtration (RO/UV) in contaminated areas.
+- **$2,049,600** for localized infrastructure diagnosis and tap repair.
 
 ##  The Tech Stack
 - **Engine:** Python 3.13 (Pandas, Numpy)
