@@ -30,3 +30,14 @@ The total budget required to end the Maji Ndogo water crisis is **Ksh 77,758,500
 - `data/`: Relational datasets (Location, Visits, Pollution, Costs).
 - `scripts/`: Modular Python engines for cleaning and strategy.
 - `output/`: High-resolution crisis maps and impact reports.
+
+##  How to Run the Pipeline
+This project is fully containerized. You do not need to install Python to see it in action.
+
+###  Using Docker
+```zsh
+# 1. Build the image
+docker build -t maji-ndogo-pipeline .
+
+# 2. Run the automated audit
+docker run --rm maji-ndogo-pipeline
